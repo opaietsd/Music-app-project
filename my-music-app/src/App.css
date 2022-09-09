@@ -1,33 +1,162 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins&display=swap');
+
+.app {
+  width: 100vw;
+  margin: 0%;
+  padding: 0%;
+  overflow: hidden;
+  background-color: #2F303A;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.app-header{
+  height: 100vh;
+  width: 100%;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+  background-image: url(./assets/imgs/firstbackground.svg);
+  background-repeat: no-repeat;
+  background-size: 29%;
+  background-position: left 10% top 100%;
 }
 
-.App-link {
-  color: #61dafb;
+.app-nav{ 
+  width: 80%;
+  height: 140px;
+
+  position:fixed;
+  top: 20px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
+.app-nav-logo{
+  width: 25%;
+  margin-left: -50px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.app-nav-logo p{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 44px;
+  color: #FFFFFF;
+}
+
+.app-nav-logo img{
+  width: 120px;
+}
+
+.app-nav-ul{
+  width: 20%;
+  display: flex;
+  justify-content: space-between;
+
+  list-style: none;
+}
+
+.app-nav-ul a{
+  padding: 10px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 39px;
+
+  color: #FFFFFF;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.app-nav-ul a:hover{
+  cursor: pointer;
+  background-color: #C14A4A;
+  border-radius: 50px;
+  opacity: 0.8;
+}
+
+.app-header-info{
+  height: 320px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  margin-left: 50%;
+}
+
+.app-header-info h1{
+  margin: 0%;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+
+  color: #FFFFFF;
+}
+
+.app-header-info p{
+  margin: 0%;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+
+  color: #FFFFFF;
+}
+
+.app-header-info button{
+  width: 255px;
+  height: 100px;
+  border:none;
+  border-radius: 11px;
+  background-color: #C14A4A;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+
+  color: #FFFFFF;
+}
+
+.app-header-info button:hover{
+  cursor: pointer;
+  font-size: 38px;
+}
+
+.firstCircle{
+  position: absolute;
+  width: 180px;
+  left: 35px;
+  top: 516px;
+}
+
+.secondCircle{
+  position: absolute;
+  width: 180px;
+  left: 500px;
+  top: 100px;
+}
+
+.thirdCircle{
+  position: absolute;
+  width: 474px;
+  height: 474px;
+  left: 1123px;
+  top: 486px;
+}
+
+
+
+
+
+/*
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -35,4 +164,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+}*/

@@ -11,11 +11,12 @@
 .app-header{
   height: 100vh;
   width: 100%;
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
 
-  background-image: url(./assets/imgs/firstbackground.svg);
+  background-image: url(./Components/imgs/firstbackground.svg);
   background-repeat: no-repeat;
   background-size: 29%;
   background-position: left 10% top 100%;
@@ -132,24 +133,23 @@
 
 .firstCircle{
   position: absolute;
-  width: 180px;
-  left: 35px;
-  top: 516px;
+  width: 12%;
+  left: 3%;
+  top: 70%;
 }
 
 .secondCircle{
   position: absolute;
-  width: 180px;
-  left: 500px;
+  width: 12%;
+  left: 32%;
   top: 100px;
 }
 
 .thirdCircle{
   position: absolute;
-  width: 474px;
-  height: 474px;
-  left: 1123px;
-  top: 486px;
+  width: 25%;
+  right: 2%;
+  top: 63%;
 }
 
 

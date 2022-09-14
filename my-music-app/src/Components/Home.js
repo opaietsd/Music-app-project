@@ -3,6 +3,7 @@ import circle from'./imgs/circle.svg';
 
 function HomePage() {
   return (
+    <div className="app">
         <header className="app-header">
           <nav className='app-nav'>
             <div className='app-nav-logo'>
@@ -25,6 +26,7 @@ function HomePage() {
             <img src={ circle } className='thirdCircle'></img>
           </div>
       </header>
+    </div>
   );
 }
 

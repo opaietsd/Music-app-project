@@ -1,6 +1,7 @@
+import '../App.css';
 import companyLogo from './imgs/logo.svg';
 import circle from'./imgs/circle.svg';
-import artists from './imgs/artists.svg'
+import artists from './imgs/artists.svg';
 import { TbMicrophone2 } from 'react-icons/tb';
 import { RiAlbumFill } from 'react-icons/ri';
 import { IoIosArrowDropright } from 'react-icons/io';
@@ -31,33 +32,33 @@ function HomePage() {
           </div>
       </header>
       <main>
-        <section className='app-section-discover'>
-          <div>
+        <section className='section-discover'>
+          <div className='section-discover-container'>
             <h2>Discover New Music</h2>
             <div>
-              <div>
+              <div className='boxes'>
                 <a href=''>
-                  <TbMicrophone2 />
+                  <TbMicrophone2 className='icon'/>
                   <h3>Charts</h3>
                 </a>
               </div>
-              <div>
+              <div className='boxes'>
                 <a a href=''>
-                  <RiAlbumFill />
+                  <RiAlbumFill className='icon' />
                   <h3>Albums</h3>
                 </a>
               </div>
-              <div>
+              <div className='boxes'>
                 < a href=''>
-                  <IoIosArrowDropright />
+                  <IoIosArrowDropright className='icon'/>
                   <h3>More</h3>
                 </a>
               </div>
               </div>
             <p>Listen to the largest collection and the latest albums only on Soundify.</p>
           </div>
-          <div>
-              <img src=''></img>
+          <div className='section-discover-imgs'>
+              <img src={ artists }></img>
               <img src=''></img>
               <img src=''></img>
               <img src=''></img>

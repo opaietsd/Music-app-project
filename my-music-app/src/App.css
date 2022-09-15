@@ -25,6 +25,7 @@
 .app-nav{ 
   width: 80%;
   height: 140px;
+  z-index: 9999;
 
   position:fixed;
   top: 20px;
@@ -151,6 +152,91 @@
   right: 2%;
   top: 63%;
 }
+
+.section-discover{
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.section-discover-container{
+  width: 40%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.section-discover-container h2{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 70px;
+
+  color: #FFFFFF;
+}
+
+.section-discover-container p{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 58px;
+
+  color: #FFFFFF;
+}
+
+.section-discover-container div{
+  display: flex;
+  justify-content: space-between;
+}
+
+.boxes{
+  width: 200px;
+  height: 210px;
+  margin-right: 20px;
+  background-color: #202027;
+
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+
+.boxes:hover{
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.boxes a{
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.boxes h3{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  margin: 0%;
+}
+
+.icon{
+  font-size: 90px;
+}
+
+.section-discover-imgs{
+  width: 40%;
+}
+.section-discover-imgs img{
+  width: 90%;
+}
+
+
+
 
 
 

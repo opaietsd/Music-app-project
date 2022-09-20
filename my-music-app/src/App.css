@@ -231,10 +231,165 @@
 .section-discover-imgs{
   width: 40%;
 }
+
 .section-discover-imgs img{
   width: 90%;
 }
 
+.section-join{
+  margin-bottom: 70px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.section-join-container{
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.section-join-container h2{
+  margin: 0%;
+  margin-top: 50px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 108px;
+
+  color: #607EE9;
+}
+
+.section-join-container p{
+  margin: 0%;
+  margin-bottom: 30px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 96px;
+  line-height: 144px;
+
+  color: #D34692;
+}
+
+.section-join-imgs{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-join-imgs img{
+  width: 28%;
+}
+
+.section-join-form{
+  width: 35%;
+  height: 500px;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
+  background-color: #202027;
+  border-radius: 22px;
+}
+
+.section-join-form:hover{
+  cursor: pointer;
+}
+
+.section-join-form label{
+  margin-left: 10%;
+  margin-bottom: -20px;
+  align-self: flex-start;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 39px;
+
+  color: #FAF6F6;
+}
+
+.section-join-form input{
+  width: 80%;
+  height: 50px;
+  border: 2px solid #385CDD;
+  border-radius: 8px;
+  background-color: transparent;
+}
+
+.section-join-form input:focus{
+  background-color: transparent;
+  border: 2px solid #C14A4A;
+}
+
+.section-join-form button{
+  width: 80%;
+  height: 65px;
+  margin-bottom: 20px;
+  border: none;
+  background-color: #C14A4A;
+  border-radius: 11px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 54px;
+
+  color: #FFFFFF;
+}
+
+.section-join-form button:hover{
+  cursor: pointer;
+  font-size: 40px;
+  opacity: 0.7;
+}
+
+.footer{
+  width: 100%;
+  height: 90px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+  background-color: #202027;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 48px;
+} 
+
+.footer a{
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.footer ul{
+  width: 20%;
+  display: flex;
+  justify-content: space-between;
+
+  list-style: none;
+}
+
+.footer li:hover{
+  opacity: 0.5;
+}
+
+.footer-socials{
+  width: 70%;
+}
+
+.footer-socials a{
+  display: flex;
+  align-items: center;
+}
 
 
 

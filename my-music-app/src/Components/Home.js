@@ -1,3 +1,4 @@
+import React from 'react';
 import '../App.css';
 import companyLogo from './imgs/logo.svg';
 import circle from'./imgs/circle.svg';
@@ -10,6 +11,7 @@ import { RiAlbumFill } from 'react-icons/ri';
 import { IoIosArrowDropright } from 'react-icons/io';
 import { AiOutlineTwitter } from 'react-icons/ai';
 import { AiFillFacebook } from 'react-icons/ai';
+import { Link } from 'react-router-dom';
 
 function HomePage() {
   return (
@@ -21,14 +23,14 @@ function HomePage() {
               <p>Soundify</p>
             </div>
             <ul className='app-nav-ul'>
-              <li><a href=''>Discover</a></li>
-              <li><a href=''>Join</a></li>
+              <li><Link to="/menu">Discover</Link></li>
+              <li><Link to="/menu">Join</Link></li>
             </ul>
           </nav>
           <div className='app-header-info'>
             <h1>Feel the Music</h1>
             <p>Stream over 20,000 tracks with one click</p>
-            <button>Stream Now</button>
+              <button><Link to="/menu">Stream Now</Link></button>
           </div>
           <div>
             <img src={ circle } className='firstCircle'></img>

@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/Music-app-project/static/css/main.8125edec.css",
+    "main.js": "/Music-app-project/static/js/main.c8ea00b7.js",
+    "static/js/787.186c6a2c.chunk.js": "/Music-app-project/static/js/787.186c6a2c.chunk.js",
+    "static/media/cyberGirl.svg": "/Music-app-project/static/media/cyberGirl.efeeb2929a0f718fb67f.svg",
+    "static/media/TaylorS.svg": "/Music-app-project/static/media/TaylorS.2f394fecfa17311d6b5a.svg",
+    "static/media/singerone.svg": "/Music-app-project/static/media/singerone.9befa3ed8c2922521afd2f6c2f682a7d.svg",
+    "static/media/Cyberpunk.svg": "/Music-app-project/static/media/Cyberpunk.640b7ac5d2252c3d0d98.svg",
+    "static/media/BillieA.svg": "/Music-app-project/static/media/BillieA.843c376c082fbb55e139.svg",
+    "static/media/bigDragons.svg": "/Music-app-project/static/media/bigDragons.a80d79346d31dca3206a.svg",
+    "static/media/dragons.svg": "/Music-app-project/static/media/dragons.9df6acab4d530232a53ff087c17d4c6a.svg",
+    "static/media/firstbackground.svg": "/Music-app-project/static/media/firstbackground.d9e8c09db99334689575.svg",
+    "static/media/artists.svg": "/Music-app-project/static/media/artists.a30d24267131e9466d212f3bb081e018.svg",
+    "static/media/singertwo.svg": "/Music-app-project/static/media/singertwo.b566ad4a4e0a6f6264bd11c81debe9d9.svg",
+    "static/media/singerthree.svg": "/Music-app-project/static/media/singerthree.3f8d14abac6d65a499d98368fcd969bb.svg",
+    "static/media/logo.svg": "/Music-app-project/static/media/logo.22df68f802c8caa161f66905cd12d0ff.svg",
+    "index.html": "/Music-app-project/index.html",
+    "static/media/circle.svg": "/Music-app-project/static/media/circle.42466a8f7a2d348962e21ced7cdd6b75.svg",
+    "main.8125edec.css.map": "/Music-app-project/static/css/main.8125edec.css.map",
+    "main.c8ea00b7.js.map": "/Music-app-project/static/js/main.c8ea00b7.js.map",
+    "787.186c6a2c.chunk.js.map": "/Music-app-project/static/js/787.186c6a2c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8125edec.css",
+    "static/js/main.c8ea00b7.js"
+  ]
+}

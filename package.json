@@ -1,7 +1,7 @@
 {
   "name": "my-music-app",
   "version": "0.1.0",
-  "homepage": "https://opaietsd.github.io/Music-app-project",
+  "homepage": "https://opaietsd.github.io/music-app-project",
   "private": true,
   "dependencies": {
     "@mui/icons-material": "^5.10.3",

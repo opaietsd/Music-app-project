@@ -546,11 +546,11 @@
   margin: 0%;
   padding: 0%;
   width: 100vw;
-  height: 100vh;
+  
 
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  align-items: center;
   background-color: #070708;
 }
 
@@ -576,6 +576,60 @@
   line-height: 60px;
   color: #FFFFFF;
 }
+
+.EvolveTeam{
+  width: 70%;
+  height: 330px;
+  display: flex;
+  justify-content: space-between;
+
+  color: #FFFFFF;
+}
+
+.team-container{
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  grid-template-columns: max-content max-content;
+
+  font-family: 'Open Sans';
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+}
+
+.team-container h2{
+   font-size: 40px;
+   margin: 0;
+   writing-mode: vertical-lr;
+   text-align: center;
+   line-height: .9;
+}
+
+.team-container h2:first-child{
+  transform: rotate(180deg);
+}
+
+.Team-table{ 
+  margin: 5%;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.Team-table td{
+  font-weight: 400;
+  color: #666666;
+}
+
+.Team-table th{
+  text-align: start;
+}
+
 
 
 

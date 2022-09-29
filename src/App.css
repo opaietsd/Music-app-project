@@ -9,7 +9,7 @@
   background-color: #2F303A;
 }
 
-.app-header{
+.app-header {
   height: 100vh;
   width: 100%;
   position: relative;
@@ -23,12 +23,12 @@
   background-position: left 10% top 100%;
 }
 
-.app-nav{ 
+.app-nav {
   width: 80%;
   height: 100px;
   z-index: 9999;
 
-  position:fixed;
+  position: fixed;
   top: 20px;
 
   display: flex;
@@ -36,13 +36,13 @@
   align-items: center;
 }
 
-.app-nav-logo{
+.app-nav-logo {
   width: 10%;
   display: flex;
   justify-content: space-evenly;
 }
 
-.app-nav-logo p{
+.app-nav-logo p {
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
@@ -51,11 +51,11 @@
   color: #FFFFFF;
 }
 
-.app-nav-logo img{
+.app-nav-logo img {
   width: 100px;
 }
 
-.app-nav-ul{
+.app-nav-ul {
   width: 23%;
   display: flex;
   justify-content: space-between;
@@ -63,7 +63,7 @@
   list-style: none;
 }
 
-.app-nav-ul a{
+.app-nav-ul a {
   padding: 10px;
   font-family: 'Inter';
   font-style: normal;
@@ -76,14 +76,14 @@
   color: #FFFFFF;
 }
 
-.app-nav-ul a:hover{
+.app-nav-ul a:hover {
   cursor: pointer;
   background: linear-gradient(#3b4e92, #9c346b);
   border-radius: 50px;
   opacity: 0.9;
 }
 
-.app-header-info{
+.app-header-info {
   height: 320px;
   display: flex;
   flex-direction: column;
@@ -92,7 +92,7 @@
   margin-left: 50%;
 }
 
-.app-header-info h1{
+.app-header-info h1 {
   margin: 0%;
   font-family: 'Inter';
   font-style: normal;
@@ -102,7 +102,7 @@
   color: #FFFFFF;
 }
 
-.app-header-info p{
+.app-header-info p {
   margin: 0%;
   font-family: 'Poppins';
   font-style: normal;
@@ -112,10 +112,10 @@
   color: #FFFFFF;
 }
 
-.app-header-info button{
+.app-header-info button {
   width: 255px;
   height: 100px;
-  border:none;
+  border: none;
   border-radius: 11px;
   background-color: #C14A4A;
 
@@ -127,38 +127,38 @@
   color: #FFFFFF;
 }
 
-.app-header-info a{
+.app-header-info a {
   text-decoration: none;
   color: #FFFFFF;
 }
 
-.app-header-info button:hover{
+.app-header-info button:hover {
   cursor: pointer;
   font-size: 38px;
 }
 
-.firstCircle{
+.firstCircle {
   position: absolute;
   width: 12%;
   left: 3%;
   top: 70%;
 }
 
-.secondCircle{
+.secondCircle {
   position: absolute;
   width: 12%;
   left: 32%;
   top: 100px;
 }
 
-.thirdCircle{
+.thirdCircle {
   position: absolute;
   width: 20%;
   right: 5%;
   top: 63%;
 }
 
-.section-discover{
+.section-discover {
   width: 100%;
   height: 100vh;
   position: relative;
@@ -167,7 +167,7 @@
   align-items: center;
 }
 
-.section-discover-container{
+.section-discover-container {
   width: 40%;
   height: 500px;
   display: flex;
@@ -175,7 +175,7 @@
   justify-content: space-around;
 }
 
-.section-discover-container h2{
+.section-discover-container h2 {
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
@@ -185,7 +185,7 @@
   color: #FFFFFF;
 }
 
-.section-discover-container p{
+.section-discover-container p {
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
@@ -195,12 +195,12 @@
   color: #FFFFFF;
 }
 
-.section-discover-container div{
+.section-discover-container div {
   display: flex;
   justify-content: center;
 }
 
-.boxes{
+.boxes {
   width: 200px;
   height: 210px;
   margin-right: 20px;
@@ -211,17 +211,17 @@
   justify-items: center;
 }
 
-.boxes:hover{
+.boxes:hover {
   cursor: pointer;
   opacity: 0.5;
 }
 
-.boxes a{
+.boxes a {
   color: #FFFFFF;
   text-decoration: none;
 }
 
-.boxes h3{
+.boxes h3 {
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
@@ -229,32 +229,32 @@
   margin: 0%;
 }
 
-.icon{
+.icon {
   font-size: 90px;
 }
 
-.section-discover-imgs{
+.section-discover-imgs {
   width: 38%;
 }
 
-.section-discover-imgs img{
+.section-discover-imgs img {
   width: 90%;
 }
 
-.section-join{
+.section-join {
   margin-bottom: 70px;
   display: flex;
   justify-content: space-evenly;
 }
 
-.section-join-container{
+.section-join-container {
   width: 40%;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-.section-join-container h2{
+.section-join-container h2 {
   margin: 0%;
   margin-top: 50px;
   font-family: 'Poppins';
@@ -266,7 +266,7 @@
   color: #607EE9;
 }
 
-.section-join-container p{
+.section-join-container p {
   margin: 0%;
   margin-bottom: 30px;
   font-family: 'Poppins';
@@ -278,17 +278,17 @@
   color: #D34692;
 }
 
-.section-join-imgs{
+.section-join-imgs {
   width: 100%;
   display: flex;
   justify-content: space-between;
 }
 
-.section-join-imgs img{
+.section-join-imgs img {
   width: 28%;
 }
 
-.section-join-form{
+.section-join-form {
   width: 33%;
   height: 470px;
   margin-top: 30px;
@@ -301,11 +301,11 @@
   border-radius: 22px;
 }
 
-.section-join-form:hover{
+.section-join-form:hover {
   cursor: pointer;
 }
 
-.section-join-form label{
+.section-join-form label {
   margin-left: 12%;
   margin-bottom: -20px;
   align-self: flex-start;
@@ -318,7 +318,7 @@
   color: #FAF6F6;
 }
 
-.section-join-form input{
+.section-join-form input {
   width: 76%;
   height: 45px;
   border: 2px solid #385CDD;
@@ -326,12 +326,12 @@
   background-color: transparent;
 }
 
-.section-join-form input:focus{
+.section-join-form input:focus {
   background-color: transparent;
   border: 2px solid #C14A4A;
 }
 
-.section-join-form button{
+.section-join-form button {
   width: 77%;
   height: 60px;
   margin-bottom: 20px;
@@ -348,33 +348,33 @@
   color: #FFFFFF;
 }
 
-.section-join-form button:hover{
+.section-join-form button:hover {
   cursor: pointer;
   font-size: 36px;
   opacity: 0.7;
 }
 
-.footer{
+.footer {
   width: 100%;
   height: 90px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
+
   background-color: #202027;
 
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 500;
   font-size: 30px;
-} 
+}
 
-.footer a{
+.footer a {
   text-decoration: none;
   color: #FFFFFF;
 }
 
-.footer ul{
+.footer ul {
   width: 35%;
   display: flex;
   justify-content: space-around;
@@ -382,16 +382,16 @@
   list-style: none;
 }
 
-.footer li:hover{
+.footer li:hover {
   opacity: 0.5;
 }
 
-.footer-socials a{
+.footer-socials a {
   display: flex;
   align-items: center;
 }
 
-.Menu-page{
+.Menu-page {
   width: 100vw;
   height: 100vh;
   margin: 0%;
@@ -399,7 +399,7 @@
 
 }
 
-.menu-header{
+.menu-header {
   width: 100%;
   height: 100vh;
   background-color: #141417;
@@ -409,7 +409,7 @@
   align-items: center;
 }
 
-.menu-page-logo{
+.menu-page-logo {
   width: 100%;
   height: 120px;
   margin-top: 20px;
@@ -418,7 +418,7 @@
   justify-content: center;
 }
 
-.menu-page-logo p{
+.menu-page-logo p {
   margin-left: 10px;
   font-family: 'Inter';
   font-style: normal;
@@ -428,7 +428,7 @@
   color: #FFFFFF;
 }
 
-.menu-greatings{
+.menu-greatings {
   width: 90%;
   padding-left: 5%;
   display: flex;
@@ -436,7 +436,7 @@
   justify-content: flex-start;
 }
 
-.menu-greatings h1{
+.menu-greatings h1 {
   margin: 0%;
   font-family: 'Inter';
   font-style: normal;
@@ -446,7 +446,7 @@
   color: #FFFFFF;
 }
 
-.menu-nav ul{
+.menu-nav ul {
   margin: 0%;
   margin-top: 20px;
   display: flex;
@@ -454,11 +454,11 @@
   list-style: none;
 }
 
-.menu-nav:hover{
+.menu-nav:hover {
   cursor: pointer;
 }
 
-.menu-nav a{
+.menu-nav a {
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 700;
@@ -470,11 +470,11 @@
   color: #FFFFFF;
 }
 
-.menu-nav a:hover{
+.menu-nav a:hover {
   opacity: 0.3;
 }
 
-.Popular{
+.Popular {
   width: 100%;
   background-color: #070708;
 
@@ -483,7 +483,7 @@
   align-items: center;
 }
 
-.Popular h1{
+.Popular h1 {
   font-family: 'Open Sans';
   text-transform: uppercase;
   font-style: normal;
@@ -494,12 +494,12 @@
   color: #FFFFFF;
 }
 
-.Popular a{
+.Popular a {
   text-decoration: none;
   color: #FFFFFF;
 }
 
-.popular-album{
+.popular-album {
   width: 1100px;
   height: 400px;
   margin-top: 10em;
@@ -512,7 +512,7 @@
   box-shadow: inset -19em 0 5px -5px #070708fb;
 }
 
-.popular-album h2{
+.popular-album h2 {
   margin: 0%;
   margin-left: 30%;
   font-family: 'Heebo';
@@ -521,29 +521,28 @@
   font-size: 120px;
 }
 
-.firstAlb{
+.firstAlb {
   background-image: linear-gradient(to left, #000000 0%, rgba(0, 0, 0, 0.268) 100%), url(./Components/imgs/dragons.svg);
 }
 
-.secondAlb{
-  background-image: linear-gradient(to left, #000000 0%, rgba(0, 0, 0, 0.268) 100%), url(./Components/imgs/cyberGirl.svg);
+.secondAlb {
   background-image: linear-gradient(to left, #000000 0%, rgba(0, 0, 0, 0.268) 100%), url(/public/imgs/cyberGirl.svg);
 }
 
-.thirdAlb{
+.thirdAlb {
   background-image: linear-gradient(to left, #000000 0%, rgba(0, 0, 0, 0.268) 100%), url(./Components/imgs/BillieA.svg);
 }
 
-.fourthAlb{
+.fourthAlb {
   background-image: linear-gradient(to left, #000000 0%, rgba(0, 0, 0, 0.268) 100%), url(./Components/imgs/TaylorS.svg);
 }
 
-.fifthAlb{
+.fifthAlb {
   margin-bottom: 10em;
   background-image: linear-gradient(to left, #000000 0%, rgba(0, 0, 0, 0.268) 100%), url(./Components/imgs/Cyberpunk.svg);
 }
 
-.EvolveAlbum{
+.EvolveAlbum {
   margin: 0%;
   padding: 0%;
   width: 100vw;
@@ -555,7 +554,7 @@
   background-color: #070708;
 }
 
-.evolveCover{
+.evolveCover {
   width: 80%;
   height: 570px;
   margin-top: 6em;
@@ -568,14 +567,14 @@
   background-size: cover;
 }
 
-.evolveCover h1{
-font-family: 'Heebo';
-text-transform: uppercase;
-font-style: normal;
-font-weight: 400;
-font-size: 96px;
-line-height: 60px;
-color: #FFFFFF;
+.evolveCover h1 {
+  font-family: 'Heebo';
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 96px;
+  line-height: 60px;
+  color: #FFFFFF;
 }
 
 

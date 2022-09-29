@@ -527,6 +527,7 @@
 
 .secondAlb{
   background-image: linear-gradient(to left, #000000 0%, rgba(0, 0, 0, 0.268) 100%), url(./Components/imgs/cyberGirl.svg);
+  background-image: linear-gradient(to left, #000000 0%, rgba(0, 0, 0, 0.268) 100%), url(/public/imgs/cyberGirl.svg);
 }
 
 .thirdAlb{

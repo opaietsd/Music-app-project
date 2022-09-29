@@ -14,7 +14,6 @@ function Menu(){
                 </div>
                 <div className="menu-greatings">
                     <h1>Soundify Playlists</h1>
-                    <h2>Good day, User</h2>
                 </div>
                 <nav className="menu-nav">
                     <ul>

@@ -1,4 +1,5 @@
 import React from "react";
+import SliderEvolve from "./slider/SliderEvolve"
 import cover from "./imgs/albumCover.svg";
 import progressBar from "./imgs/progressBar.svg";
 import playBar from "./imgs/playBar.svg";
@@ -76,9 +77,7 @@ function Evolve(){
              </div>
              <main>
                 <section>
-                    <div className="slick">
-
-                    </div>
+                    <SliderEvolve />
                 </section>
                 <section className="albums">
                     <div className="Song-container">

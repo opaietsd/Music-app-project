@@ -1,4 +1,9 @@
 import React from "react";
+import cover from "./imgs/albumCover.svg";
+import progressBar from "./imgs/progressBar.svg";
+import playBar from "./imgs/playBar.svg";
+import {BsPlayBtnFill, BsPauseBtnFill} from "react-icons/bs";
+import {CgPlayTrackNext} from "react-icons/cg";
 
 function Evolve(){
     return (
@@ -69,9 +74,160 @@ function Evolve(){
                         </tr>
                  </table>
              </div>
-             <div className="slick">
+             <main>
+                <section>
+                    <div className="slick">
 
-             </div>
+                    </div>
+                </section>
+                <section className="albums">
+                    <div className="Song-container">
+                        <img src={ cover }></img>
+                        <div className="song-name"> 
+                            <h2>Thunder</h2>
+                            <span>Imagine Dragons</span>
+                        </div>
+                        <div className="icons-container">
+                          <BsPauseBtnFill className="iconsevolve"/>
+                          <CgPlayTrackNext className="iconsevolve"/>
+                        </div>
+                        <img src={playBar}></img>
+                    </div>
+                    <div className="Song-container">
+                        <img src={ cover }></img>
+                        <div className="song-name"> 
+                            <h2>Believer</h2>
+                            <span>Imagine Dragons</span>
+                        </div>
+                        <div className="icons-container">
+                         <BsPlayBtnFill className="iconsevolve"/>
+                         <CgPlayTrackNext className="iconsevolve"/>
+                        </div>
+                        <img src={progressBar}></img>
+                    </div>
+                    <div className="Song-container">
+                        <img src={ cover }></img>
+                        <div className="song-name"> 
+                            <h2>Next To Me</h2>
+                            <span>Imagine Dragons</span>
+                        </div>
+                        <div className="icons-container">
+                         <BsPlayBtnFill className="iconsevolve"/>
+                         <CgPlayTrackNext className="iconsevolve"/>
+                        </div>
+                        <img src={progressBar}></img>
+                    </div>
+                    <div className="Song-container">
+                        <img src={ cover }></img>
+                        <div className="song-name"> 
+                            <h2>I Don't Know</h2>
+                            <span>Imagine Dragons</span>
+                        </div>
+                        <div className="icons-container">
+                         <BsPlayBtnFill className="iconsevolve"/>
+                         <CgPlayTrackNext className="iconsevolve"/>
+                        </div>
+                        <img src={progressBar}></img>
+                    </div>
+                    <div className="Song-container">
+                        <img src={ cover }></img>
+                        <div className="song-name"> 
+                            <h2>Whatever It</h2>
+                            <span>Imagine Dragons</span>
+                        </div>
+                        <div className="icons-container">
+                         <BsPlayBtnFill className="iconsevolve"/>
+                         <CgPlayTrackNext className="iconsevolve"/>
+                        </div>
+                        <img src={progressBar}></img>
+                    </div>
+                    <div className="Song-container">
+                        <img src={ cover }></img>
+                        <div className="song-name"> 
+                            <h2>Walking the</h2>
+                            <span>Imagine Dragons</span>
+                        </div>
+                        <div className="icons-container">
+                         <BsPlayBtnFill className="iconsevolve"/>
+                         <CgPlayTrackNext className="iconsevolve"/>
+                        </div>
+                        <img src={progressBar}></img>
+                    </div>
+                    <div className="Song-container">
+                        <img src={ cover }></img>
+                        <div className="song-name"> 
+                            <h2>Rise Up</h2>
+                            <span>Imagine Dragons</span>
+                        </div>
+                        <div className="icons-container">
+                         <BsPlayBtnFill className="iconsevolve"/>
+                         <CgPlayTrackNext className="iconsevolve"/>
+                        </div>
+                        <img src={progressBar}></img>
+                    </div>
+                    <div className="Song-container">
+                        <img src={ cover }></img>
+                        <div className="song-name"> 
+                            <h2>I'll Make It</h2>
+                            <span>Imagine Dragons</span>
+                        </div>
+                        <div className="icons-container">
+                         <BsPlayBtnFill className="iconsevolve"/>
+                         <CgPlayTrackNext className="iconsevolve"/>
+                        </div>
+                        <img src={progressBar}></img>
+                    </div>
+                    <div className="Song-container">
+                        <img src={ cover }></img>
+                        <div className="song-name"> 
+                            <h2>Yesterday</h2>
+                            <span>Imagine Dragons</span>
+                        </div>
+                        <div className="icons-container">
+                         <BsPlayBtnFill className="iconsevolve"/>
+                         <CgPlayTrackNext className="iconsevolve"/>
+                        </div>
+                        <img src={progressBar}></img>
+                    </div>
+                    <div className="Song-container">
+                        <img src={ cover }></img>
+                        <div className="song-name"> 
+                            <h2>Mouth of </h2>
+                            <span>Imagine Dragons</span>
+                        </div>
+                        <div className="icons-container">
+                         <BsPlayBtnFill className="iconsevolve"/>
+                         <CgPlayTrackNext className="iconsevolve"/>
+                        </div>
+                        <img src={progressBar}></img>
+                    </div>
+                    <div className="Song-container">
+                        <img src={ cover }></img>
+                        <div className="song-name"> 
+                            <h2>Start Over</h2>
+                            <span>Imagine Dragons</span>
+                        </div>
+                        <div className="icons-container">
+                         <BsPlayBtnFill className="iconsevolve"/>
+                         <CgPlayTrackNext className="iconsevolve"/>
+                        </div>
+                        <img src={progressBar}></img>
+                    </div>
+                    <div className="Song-container">
+                        <img src={ cover }></img>
+                        <div className="song-name"> 
+                            <h2>Dancing in </h2>
+                            <span>Imagine Dragons</span>
+                        </div>
+                        <div className="icons-container">
+                         <BsPlayBtnFill className="iconsevolve"/>
+                         <CgPlayTrackNext className="iconsevolve"/>
+                        </div>
+                        <img src={progressBar}></img>
+                    </div>
+                </section>
+             </main>
+
 
         </div>
     )

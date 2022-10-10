@@ -1,3 +1,4 @@
+import React from "react";
 import "./App.css";
 import HomePage from "./Components/Home";
 import About from "./Components/About";
@@ -7,6 +8,8 @@ import Evolve from "./Components/Evolve";
 import {HashRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
+
+
   return (
     <Router>
       <div>

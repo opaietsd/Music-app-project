@@ -27,7 +27,7 @@
   width: 80%;
   height: 100px;
   z-index: 9999;
-
+  background-color: #2F303A;
   position: fixed;
   top: 20px;
 
@@ -37,29 +37,29 @@
 }
 
 .app-nav-logo {
-  width: 10%;
+  width: 15%;
   display: flex;
   justify-content: space-evenly;
+  align-items: center;
 }
 
 .app-nav-logo p {
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
-  font-size: 30px;
+  font-size: 18px;
   line-height: 44px;
   color: #FFFFFF;
 }
 
 .app-nav-logo img {
-  width: 100px;
+  width: 50px;
 }
 
 .app-nav-ul {
   width: 23%;
   display: flex;
   justify-content: space-between;
-
   list-style: none;
 }
 
@@ -68,7 +68,7 @@
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
-  font-size: 30px;
+  font-size: 18px;
   line-height: 39px;
 
   color: #FFFFFF;
@@ -113,8 +113,8 @@
 }
 
 .app-header-info button {
-  width: 255px;
-  height: 100px;
+  width: 220px;
+  height: 69px;
   border: none;
   border-radius: 11px;
   background-color: #C14A4A;
@@ -122,7 +122,7 @@
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
-  font-size: 32px;
+  font-size: 20px;
 
   color: #FFFFFF;
 }
@@ -134,7 +134,7 @@
 
 .app-header-info button:hover {
   cursor: pointer;
-  font-size: 38px;
+  font-size: 24px;
 }
 
 .firstCircle {
@@ -314,7 +314,6 @@
   font-weight: 400;
   font-size: 25px;
   line-height: 39px;
-
   color: #FAF6F6;
 }
 
@@ -324,6 +323,7 @@
   border: 2px solid #385CDD;
   border-radius: 8px;
   background-color: transparent;
+  color: #FAF6F6;
 }
 
 .section-join-form input:focus {
@@ -366,7 +366,7 @@
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 500;
-  font-size: 30px;
+  font-size: 18px;
 }
 
 .footer a {
